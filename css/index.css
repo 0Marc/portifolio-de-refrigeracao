@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+header{
+    height: 99px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+
+    
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.nav-bar{
+    justify-content: space-between;
+    display: flex;
+
+}
+
+nav button{
+    height: 30px;
+    width: 12vw;
+    border: 2px solid black;
+    background: lightcyan;
+}
+nav button:active{
+    background: gray;
+}
+
+.sobre{
+    width: auto;
+}
+
+.img-grid img{
+    width: 200px;
+}
+
+.img-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
